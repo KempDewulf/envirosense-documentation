@@ -14,7 +14,7 @@ When unsafe levels of pollutants or fire risks are detected, the system will tri
 ## Cloud & Edge Computing
 ### Used hardware
 - IC: ESP32 Chip
-Sensors ESP32:
+Sensors:
   - Humidity sensor
   - Temperature sensor 
   - CO2 sensor
@@ -36,7 +36,7 @@ The messages are in JSON, in the following format:
     "humidity": "50%",
     "fire_detected": "false"
 }
-
+```
 
 ### Data gathering
 - Classroom ID: Identifies the specific classroom (saved as varchar)
