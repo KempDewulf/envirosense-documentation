@@ -29,7 +29,7 @@ The messages are in JSON, in the following format:
 
 ```json
 {
-    "classroom": "Room A101",
+    "classroom": "BST.A.1.101",
     "action": "monitoring",
     "CO2": "500 ppm",
     "temperature": "22°C",
