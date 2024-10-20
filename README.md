@@ -17,7 +17,7 @@ This system monitors the air quality within university classrooms using multi-se
  
 |Status|Description|Details|
 |---|---|---|
- **CMS** ||
+|| **CMS** ||
 || Headless CMS system STRAPI to store all the cloud data
 || Visualize the data stored in the CMS system
 || Use TensorFlow that consumes the data stored in the CMS
