@@ -17,11 +17,11 @@ This system monitors the air quality within university classrooms using multi-se
  
 |Status|Description|Details|
 |---|---|---|
-|| **CMS** ||
+|| **--CMS--** ||
 || Headless CMS system STRAPI to store all the cloud data
 || Visualize the data stored in the CMS system
 || Use TensorFlow that consumes the data stored in the CMS
-|| **Edge Computing** ||
+|| **--Edge Computing--** ||
 || 2 devices
 || Wifi communication
 || 2 sensors
@@ -29,11 +29,11 @@ This system monitors the air quality within university classrooms using multi-se
 || One type of data that is continuously sampled
 || Edge computing use case
 || Events
-|| **Trending Topics** ||
+|| **--Trending Topics--** ||
 || Application with an own use case
 || Different unknown programming language or concept
 || Heartbeat to Firebase
-|| **Global** ||
+|| **--Global--** ||
 || All data in the messagebroker
 || Autodeployment
 || Caching
