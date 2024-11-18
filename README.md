@@ -25,8 +25,8 @@ This system monitors the air quality within university classrooms using multi-se
 |:hourglass:| 2 devices
 |:hourglass:| Wifi communication
 |:heavy_check_mark:| 2 sensors
-|:heavy_check_mark:| Other protocol then HTTPS
-|:hourglass:| One type of data that is continuously sampled
+|:hourglass:| Other protocol then HTTPS
+|:heavy_check_mark:| One type of data that is continuously sampled
 |:heavy_check_mark:| Edge computing use case
 || Events
 || **--Trending Topics--** ||
@@ -38,7 +38,7 @@ This system monitors the air quality within university classrooms using multi-se
 |:hourglass:| Autodeployment
 |:hourglass:| Caching
 
-## Overview app
+## Overview Project
 ### ![](ReadmeImages/Screenshot.png) Screenshots
 Give screenshots for every screen in the application. Give each screen an unique name.
 
@@ -49,14 +49,14 @@ Type of data stored in the messagebroker used in screen x and displayed in scree
 Request to server x retrieving JSON in the following format displayed in screen x.
 
 ### ![](ReadmeImages/Intents.png) Devices
-1. Detail device 1
+1. ESP32 WROVER using a temperature, humidity and gas sensor.
 2. Detail device 2
 
 ### ![](ReadmeImages/SensorData.png) Sensor data
-Implementation of sensor data.
+The ESP32 reads the temperature, humidity and gas data from the sensors. This gets displayed on the LED screen and will be sent to the messagebroker.
 
 ### ![](ReadmeImages/Workmanager.png) Edge Computing
-Implementation of the Edge Computing use case
+The ESP32 will activate a servo to simulate the opening of a smart window to reach target temperature.
 
 ### ![](ReadmeImages/Notifications.png) Events
 Implementation of notifications & events.
@@ -71,12 +71,14 @@ Implementation of Tensorflow.
 Implementation of auto deployment.
 
 ### ![](ReadmeImages/Notifications.png) Heartbeat
-Implementation of the 2 weeks heartbeat.
+A heartbeat is continuously sent from the ESP32 to a Google Firebase database.
 
 ### ![](ReadmeImages/Workmanager.png) Caching
 Implementation of caching.
 
 
 ## Repositories
-- Code
-  - https://gitlab.ti.howest.be/ti/
+- Flutter App:
+  - https://gitlab.ti.howest.be/ti/2024-2025/s5/ccett/projects/group-14/flutter-app
+- IoT ESP32:
+  - https://gitlab.ti.howest.be/ti/2024-2025/s5/ccett/projects/group-14/iot-esp32
