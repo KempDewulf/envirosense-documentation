@@ -18,25 +18,25 @@ This system monitors the air quality within university classrooms using multi-se
 |Status|Description|Details|
 |---|---|---|
 || **--CMS--** ||
-|| Headless CMS system STRAPI to store all the cloud data
-|| Visualize the data stored in the CMS system
-|| Use TensorFlow that consumes the data stored in the CMS
+|:hourglass:| Headless CMS system STRAPI to store all the cloud data
+|:hourglass:| Visualize the data stored in the CMS system
+|:hourglass:| Use TensorFlow that consumes the data stored in the CMS
 || **--Edge Computing--** ||
-|| 2 devices
-|| Wifi communication
-|| 2 sensors
-|| Other protocol then HTTPS
-|| One type of data that is continuously sampled
-|| Edge computing use case
+|:hourglass:| 2 devices
+|:hourglass:| Wifi communication
+|:heavy_check_mark:| 2 sensors
+|:heavy_check_mark:| Other protocol then HTTPS
+|:hourglass:| One type of data that is continuously sampled
+|:heavy_check_mark:| Edge computing use case
 || Events
 || **--Trending Topics--** ||
-|| Application with an own use case
-|| Different unknown programming language or concept
-|| Heartbeat to Firebase
+|:hourglass:| Application with an own use case
+|:heavy_check_mark:| Different unknown programming language or concept
+|:heavy_check_mark:| Heartbeat to Firebase
 || **--Global--** ||
-|| All data in the messagebroker
-|| Autodeployment
-|| Caching
+|:hourglass:| All data in the messagebroker
+|:hourglass:| Autodeployment
+|:hourglass:| Caching
 
 ## Overview app
 ### ![](ReadmeImages/Screenshot.png) Screenshots
