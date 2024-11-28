@@ -18,11 +18,11 @@ This system monitors the air quality within university classrooms using multi-se
 |Status|Description|Details|
 |---|---|---|
 || **--CMS--** ||
-|:hourglass:| Headless CMS system STRAPI to store all the cloud data
+|:heavy_check_mark:| Headless CMS system STRAPI to store all the cloud data
 |:hourglass:| Visualize the data stored in the CMS system
 |:hourglass:| Use TensorFlow that consumes the data stored in the CMS
 || **--Edge Computing--** ||
-|:hourglass:| 2 devices
+|:heavy_check_mark:| 2 devices
 |:hourglass:| Wifi communication
 |:heavy_check_mark:| 2 sensors
 |:hourglass:| Other protocol then HTTPS
