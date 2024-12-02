@@ -28,7 +28,7 @@ This system monitors the air quality within university classrooms using multi-se
 |:heavy_check_mark:| Other protocol then HTTPS
 |:heavy_check_mark:| One type of data that is continuously sampled
 |:heavy_check_mark:| Edge computing use case
-|| Events
+|:hourglass:| Events
 || **--Trending Topics--** ||
 |:hourglass:| Application with an own use case
 |:heavy_check_mark:| Different unknown programming language or concept
