@@ -23,9 +23,9 @@ This system monitors the air quality within university classrooms using multi-se
 |:hourglass:| Use TensorFlow that consumes the data stored in the CMS
 || **--Edge Computing--** ||
 |:heavy_check_mark:| 2 devices
-|:hourglass:| Wifi communication
+|:heavy_check_mark:| Wifi communication
 |:heavy_check_mark:| 2 sensors
-|:hourglass:| Other protocol then HTTPS
+|:heavy_check_mark:| Other protocol then HTTPS
 |:heavy_check_mark:| One type of data that is continuously sampled
 |:heavy_check_mark:| Edge computing use case
 || Events
@@ -50,7 +50,7 @@ Request to server x retrieving JSON in the following format displayed in screen 
 
 ### ![](ReadmeImages/Intents.png) Devices
 1. ESP32 WROVER using a temperature, humidity and gas sensor.
-2. Detail device 2
+2. End-user device (Android Phone) using the EnviroSense (flutter) app to manage the rooms and devices.
 
 ### ![](ReadmeImages/SensorData.png) Sensor data
 The ESP32 reads the temperature, humidity and gas data from the sensors. This gets displayed on the LED screen and will be sent to the messagebroker.
