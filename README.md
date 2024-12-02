@@ -82,3 +82,9 @@ Implementation of caching.
   - https://gitlab.ti.howest.be/ti/2024-2025/s5/ccett/projects/group-14/flutter-app
 - IoT ESP32:
   - https://gitlab.ti.howest.be/ti/2024-2025/s5/ccett/projects/group-14/iot-esp32
+- Deno Server:
+  - https://gitlab.ti.howest.be/ti/2024-2025/s5/ccett/projects/group-14/deno-server
+- MQTT (RabbitMQ) Broker:
+  - https://gitlab.ti.howest.be/ti/2024-2025/s5/ccett/projects/group-14/rabbitmq-broker
+- Strapi CMS:
+  - https://gitlab.ti.howest.be/ti/2024-2025/s5/ccett/projects/group-14/strapi-cms
