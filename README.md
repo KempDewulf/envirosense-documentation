@@ -43,7 +43,7 @@ This system monitors the air quality within university classrooms using multi-se
 Give screenshots for every screen in the application. Give each screen an unique name.
 
 ### ![](ReadmeImages/Database.png) Messagebroker
-Type of data stored in the messagebroker used in screen x and displayed in screen y.
+RabbitMQ message broker allows communication between IoT device and server.
 
 ### ![](ReadmeImages/API.png) API request
 Request to server x retrieving JSON in the following format displayed in screen x.
