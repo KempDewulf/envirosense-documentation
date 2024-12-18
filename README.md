@@ -71,7 +71,8 @@ Implementation of Tensorflow.
 Implementation of auto deployment.
 
 ### ![](ReadmeImages/Notifications.png) Heartbeat
-A heartbeat is continuously sent from the ESP32 to a Google Firebase database.
+A heartbeat is continuously sent from the ESP32 to a Google Firebase database, which is displayed in [grafana](https://kempdewulf.grafana.net/public-dashboards/2cbb2f20cbcb41ae9a271faf46098d9a?orgId=1&refresh=5s&from=now-14d&to=now&timezone=browser).
+
 
 ### ![](ReadmeImages/Workmanager.png) Caching
 Implementation of caching.
