@@ -19,7 +19,7 @@ This system monitors the air quality within university classrooms using multi-se
 |---|---|---|
 || **--CMS--** ||
 |:heavy_check_mark:| Headless CMS system STRAPI to store all the cloud data
-|:hourglass:| Visualize the data stored in the CMS system
+|:heavy_check_mark::| Visualize the data stored in the CMS system
 |:hourglass:| Use TensorFlow that consumes the data stored in the CMS
 || **--Edge Computing--** ||
 |:heavy_check_mark:| 2 devices
@@ -34,7 +34,7 @@ This system monitors the air quality within university classrooms using multi-se
 |:heavy_check_mark:| Different unknown programming language or concept
 |:heavy_check_mark:| Heartbeat to Firebase
 || **--Global--** ||
-|:hourglass:| All data in the messagebroker
+|:heavy_check_mark:| All data in the messagebroker
 |:heavy_check_mark:| Autodeployment
 |:hourglass:| Caching
 
