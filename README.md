@@ -48,7 +48,7 @@ A RabbitMQ broker is hosted in a Docker container on our VPS, enabling communica
 ### ![](ReadmeImages/API.png) API request
 Request to server x retrieving JSON in the following format displayed in screen x.
 
-[Check out the OpenAPI specification here](../documentation/openapi.yml)
+[Check out the OpenAPI specification here](http://94.130.75.173:8101/)
 
 ### ![](ReadmeImages/Intents.png) Devices
 1. ESP32 WROVER uses a temperature, humidity, and gas sensor to monitor environmental conditions while controlling a servo.
