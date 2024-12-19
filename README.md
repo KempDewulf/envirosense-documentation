@@ -43,39 +43,44 @@ This system monitors the air quality within university classrooms using multi-se
 Give screenshots for every screen in the application. Give each screen an unique name.
 
 ### ![](ReadmeImages/Database.png) Messagebroker
-RabbitMQ message broker allows communication between IoT device and server.
+A RabbitMQ broker is hosted in a Docker container on our VPS, enabling communication between the IoT device and the Deno.js server.
 
 ### ![](ReadmeImages/API.png) API request
 Request to server x retrieving JSON in the following format displayed in screen x.
 
+[Check out the OpenAPI specification here](../documentation/openapi.yml)
+
 ### ![](ReadmeImages/Intents.png) Devices
-1. ESP32 WROVER using a temperature, humidity and gas sensor.
-2. End-user device (Android Phone) using the EnviroSense (flutter) app to manage the rooms and devices.
+1. ESP32 WROVER uses a temperature, humidity, and gas sensor to monitor environmental conditions while controlling a servo.
+2. The end-user's phone uses the EnviroSense (Flutter) app to manage rooms and devices.
 
 ### ![](ReadmeImages/SensorData.png) Sensor data
-The ESP32 reads the temperature, humidity and gas data from the sensors. This gets displayed on the LED screen and will be sent to the messagebroker.
+The ESP32 reads temperature, humidity, and CO2 data from the sensors, displays the information on the LED screen, and sends it to the message broker.
 
 ### ![](ReadmeImages/Workmanager.png) Edge Computing
-The ESP32 will activate a servo to simulate the opening of a smart window to reach target temperature.
+The IoT device monitors temperatures and automatically opens windows if they exceed the maximum threshold, maintaining ventilation until the target temperature is restored.
 
 ### ![](ReadmeImages/Notifications.png) Events
-Implementation of notifications & events.
+The IoT device will accept new temperature limits when sent by a user.
 
 ### ![](ReadmeImages/Workmanager.png) Trending use case
-Implementation of the application with an unknown programming language or concept.
+Our Flutter app serves as the primary interface for end-users to interact with our product. Within the app, users can view, add, remove, and modify specific elements.
+
+Other unknown languages we use are:
+  - Deno.js (TypeScript) for our server
+  - C++ for our IoT device
 
 ### ![](ReadmeImages/MLkit.png) Tensorflow
-Implementation of Tensorflow.
+??
 
 ### ![](ReadmeImages/Animations.png) Auto deployment
-Implementation of auto deployment.
+Our Deno server is automatically deployed to a Docker container on our VPS, but only after all tests pass successfully.
 
 ### ![](ReadmeImages/Notifications.png) Heartbeat
 A heartbeat is continuously sent from the ESP32 to a Google Firebase database, which is displayed in [grafana](https://kempdewulf.grafana.net/public-dashboards/2cbb2f20cbcb41ae9a271faf46098d9a?orgId=1&refresh=5s&from=now-14d&to=now&timezone=browser).
 
-
 ### ![](ReadmeImages/Workmanager.png) Caching
-Implementation of caching.
+Deno dependencies are cached during auto-deployment.
 
 
 ## Repositories
