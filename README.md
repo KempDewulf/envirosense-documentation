@@ -76,7 +76,11 @@ Other unknown languages we use are:
 Our Deno server is automatically deployed to a Docker container on our VPS, but only after all tests pass successfully.
 
 ### ![](ReadmeImages/Notifications.png) Heartbeat
-A heartbeat is continuously sent from the ESP32 to a Google Firebase database, which is displayed in [grafana](https://kempdewulf.grafana.net/public-dashboards/2cbb2f20cbcb41ae9a271faf46098d9a?orgId=1&refresh=5s&from=now-14d&to=now&timezone=browser).
+A heartbeat is continuously sent from the ESP32 to a Google Firebase database.
+
+Our VPS also sends a heartbeat to Firebase every 30 seconds with the status of the following docker containers: PostgreSQL, Strapi, Deno server and MQTT broker.
+
+This data will eventually be displayed on Grafana.
 
 ### ![](ReadmeImages/Workmanager.png) Caching
 Deno dependencies are cached during auto-deployment.
