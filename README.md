@@ -69,9 +69,6 @@ Other unknown languages we use are:
   - Deno.js (TypeScript) for our server
   - C++ for our IoT device
 
-### ![](ReadmeImages/MLkit.png) Tensorflow
-??
-
 ### ![](ReadmeImages/Animations.png) Auto deployment
 Our Deno server is automatically deployed to a Docker container on our VPS, but only after all tests pass successfully.
 
