@@ -60,6 +60,7 @@ The ESP32 reads temperature, humidity, and CO2 data from the sensors, displays t
 The IoT device monitors temperatures and automatically opens windows if they exceed the maximum threshold, maintaining ventilation until the target temperature is restored.
 
 ### ![](ReadmeImages/Notifications.png) Events
+When the server detects bad air conditions, a notification is sent to the user device, even if app is closed.
 The IoT device will accept new temperature limits when sent by a user.
 
 ### ![](ReadmeImages/Workmanager.png) Trending use case
