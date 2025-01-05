@@ -29,13 +29,13 @@ This system monitors the air quality within university classrooms using multi-se
 |:heavy_check_mark:| Edge computing use case
 |:heavy_check_mark:| Events
 || **--Trending Topics--** ||
-|:hourglass:| Application with an own use case
+|:heavy_check_mark:| Application with an own use case
 |:heavy_check_mark:| Different unknown programming language or concept
 |:heavy_check_mark:| Heartbeat to Firebase
 || **--Global--** ||
 |:heavy_check_mark:| All data in the messagebroker
 |:heavy_check_mark:| Autodeployment
-|:hourglass:| Caching
+|:heavy_check_mark:| Caching
 
 ## Overview Project
 ### ![](ReadmeImages/Screenshot.png) Screenshots
