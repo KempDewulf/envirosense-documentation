@@ -47,7 +47,7 @@ A RabbitMQ broker is hosted in a Docker container on our VPS, enabling communica
 ### ![](ReadmeImages/API.png) API request
 Request to server x retrieving JSON in the following format displayed in screen x.
 
-[Check out the OpenAPI specification here](http://94.130.75.173:8101/)
+[Check out the OpenAPI & AsyncAPI specification here](http://94.130.75.173:8101/)
 
 ### ![](ReadmeImages/Intents.png) Devices
 1. ESP32 WROVER uses a temperature, humidity, and gas sensor to monitor environmental conditions while controlling a servo.
@@ -60,8 +60,8 @@ The ESP32 reads temperature, humidity, and CO2 data from the sensors, displays t
 The IoT device monitors temperatures and automatically opens windows if they exceed the maximum threshold, maintaining ventilation until the target temperature is restored.
 
 ### ![](ReadmeImages/Notifications.png) Events
-When the server detects bad air conditions, a notification is sent to the user device, even if app is closed.
-The IoT device will accept new temperature limits when sent by a user.
+When the server detects bad air conditions coming from the sensors, a notification is sent to the user device, even if app is closed.
+The user can send temperature limits, UI-mode selection and brightness setting to the IoT devices.
 
 ### ![](ReadmeImages/Workmanager.png) Trending use case
 Our Flutter app serves as the primary interface for end-users to interact with our product. Within the app, users can view, add, remove, and modify specific elements.
@@ -82,7 +82,7 @@ This data will eventually be displayed on Grafana.
 
 ### ![](ReadmeImages/Workmanager.png) Caching
 Deno dependencies are cached during auto-deployment.
-
+Air quality data per device is cached on the app and only new data is fetched.
 
 ## Repositories
 - Flutter App:
