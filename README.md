@@ -57,9 +57,6 @@ This system monitors the air quality within university classrooms using multi-se
 
 If you want individual app screens (raw), see the folder **`app-screens-raw`**.
 
-<details>
-  <summary>Click to expand screenshots</summary>
-
 ![Onboarding Screens](assets/app-screens-showcased/Onboarding%20Screens.png)
 
 ![Authentication Screens](assets/app-screens-showcased/Authentication%20Screens.png)
@@ -87,8 +84,6 @@ If you want individual app screens (raw), see the folder **`app-screens-raw`**.
 ![Device Actions Screens](assets/app-screens-showcased/Device%20Actions%20Screens.png)
 
 ![No Connection Screen](assets/app-screens-showcased/No%20Connection%20Screen.png)
-
-</details>
 
 ### ![](ReadmeImages/Database.png) Messagebroker
 A RabbitMQ broker is hosted in a Docker container on our VPS, enabling communication between the IoT device and the Deno.js server.
