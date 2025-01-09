@@ -58,7 +58,7 @@ This system monitors the air quality within university classrooms using multi-se
 If you want individual app screens (raw), see the folder **`app-screens-raw`**.
 
 <details>
-  <summary>**Click to expand screenshots**</summary>
+  <summary>Click to expand screenshots</summary>
 
 ![Onboarding Screens](assets/app-screens-showcased/Onboarding%20Screens.png)
 
