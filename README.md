@@ -92,7 +92,10 @@ Deno dependencies are cached during auto-deployment.
 
 Air quality data per device is cached on the app and only new data is fetched.
 
-## Repositories with individual documentation
+## Repositories
+
+Each repository is individually documented
+
 - Flutter App:
   - https://gitlab.ti.howest.be/ti/2024-2025/s5/ccett/projects/group-14/flutter-app
 - IoT ESP32:
