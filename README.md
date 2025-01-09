@@ -56,6 +56,12 @@ Request to server x retrieving JSON in the following format displayed in screen 
 ### ![](ReadmeImages/SensorData.png) Sensor data
 The ESP32 reads temperature, humidity, and CO2 data from the sensors, displays the information on the LED screen, and sends it to the message broker.
 
+We also have a Grafana dashboard that listens on the data topic of our real device to display the data.
+
+A snapshot of the dashboard can be seen via this [link](https://kempdewulf.grafana.net/dashboard/snapshot/45ZnzIk8yMndjr5wXwL91eAeKmzp6QsA?orgId=0&from=2025-01-09T18:48:40.135Z&to=2025-01-09T18:53:44.144Z&timezone=browser).
+
+Due to Grafana limitations, an MQTT dashboard cannot be publicly shared.
+
 ### ![](ReadmeImages/Workmanager.png) Edge Computing
 The IoT device monitors temperatures and automatically opens windows if they exceed the maximum threshold, maintaining ventilation until the target temperature is restored.
 
