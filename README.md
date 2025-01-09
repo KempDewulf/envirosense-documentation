@@ -14,7 +14,7 @@ This system monitors the air quality within university classrooms using multi-se
 - :x: = Not implemented
 - :hourglass: = Work in progress
 
- 
+
 |Status|Description|Details|
 |---|---|---|
 || **--CMS--** ||
@@ -39,7 +39,51 @@ This system monitors the air quality within university classrooms using multi-se
 
 ## Overview Project
 ### ![](ReadmeImages/Screenshot.png) Screenshots
-Give screenshots for every screen in the application. Give each screen an unique name.
+## Screens Included
+1. Onboarding Screens
+2. Authentication Screens
+3. New Resident Screens
+4. Add Room Screens
+5. Add Device Screens
+6. Statistics Screens
+7. Settings Screens
+8. Room Overview Screens
+9. Room Devices Screen
+10. Room Actions Screens
+11. Device (Device History) Screens
+12. Device Controls Screens
+13. Device Actions Screens
+14. No Connection Screen
+
+If you want individual app screens (raw), see the folder **`app-screens-raw`**.
+
+![Onboarding Screens](assets/app-screens-showcased/Onboarding%20Screens.png)
+
+![Authentication Screens](assets/app-screens-showcased/Authentication%20Screens.png)
+
+![New Resident Screens](assets/app-screens-showcased/New%20Resident%20Screens.png)
+
+![Add Room Screens](assets/app-screens-showcased/Add%20Room%20Screens.png)
+
+![Add Device Screens](assets/app-screens-showcased/Add%20Device%20Screens.png)
+
+![Statistics Screens](assets/app-screens-showcased/Statistics%20Screens.png)
+
+![Settings Screens](assets/app-screens-showcased/Settings%20Screens.png)
+
+![Room Overview Screens](assets/app-screens-showcased/Room%20Overview%20Screens.png)
+
+![Room Devices Screen](assets/app-screens-showcased/Room%20Devices%20Screen.png)
+
+![Room Actions Screens](assets/app-screens-showcased/Room%20Actions%20Screens.png)
+
+![Device (Device History) Screens](assets/app-screens-showcased/Device%20(Device%20History)%20Screens.png)
+
+![Device Controls Screens](assets/app-screens-showcased/Device%20Controls%20Screens.png)
+
+![Device Actions Screens](assets/app-screens-showcased/Device%20Actions%20Screens.png)
+
+![No Connection Screen](assets/app-screens-showcased/No%20Connection%20Screen.png)
 
 ### ![](ReadmeImages/Database.png) Messagebroker
 A RabbitMQ broker is hosted in a Docker container on our VPS, enabling communication between the IoT device and the Deno.js server.
