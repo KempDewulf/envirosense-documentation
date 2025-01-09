@@ -67,6 +67,7 @@ The IoT device monitors temperatures and automatically opens windows if they exc
 
 ### ![](ReadmeImages/Notifications.png) Events
 When the server detects bad air conditions coming from the sensors, a notification is sent to the user device, even if app is closed.
+
 The user can send temperature limits, UI-mode selection and brightness setting to the IoT devices.
 
 ### ![](ReadmeImages/Workmanager.png) Trending use case
@@ -88,6 +89,7 @@ This data will eventually be displayed on Grafana.
 
 ### ![](ReadmeImages/Workmanager.png) Caching
 Deno dependencies are cached during auto-deployment.
+
 Air quality data per device is cached on the app and only new data is fetched.
 
 ## Repositories
