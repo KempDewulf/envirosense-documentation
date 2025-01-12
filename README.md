@@ -89,9 +89,9 @@ If you want individual app screens (raw), see the folder **`app-screens-raw`**.
 A RabbitMQ broker is hosted in a Docker container on our VPS, enabling communication between the IoT device and the Deno.js server.
 
 ### ![](ReadmeImages/API.png) API request
-Request to server x retrieving JSON in the following format displayed in screen x.
-
 [Check out the OpenAPI & AsyncAPI specification here](http://94.130.75.173:8101/)
+
+The usage of the endpoints in the app is as follows:
 
 #### Building
 
