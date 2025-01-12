@@ -39,7 +39,7 @@ This system monitors the air quality within university classrooms using multi-se
 
 ## Overview Project
 ### ![](ReadmeImages/Screenshot.png) Screenshots
-## Screens Included
+#### Screens Included
 1. Onboarding Screens
 2. Authentication Screens
 3. New Resident Screens
