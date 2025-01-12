@@ -93,6 +93,75 @@ Request to server x retrieving JSON in the following format displayed in screen 
 
 [Check out the OpenAPI & AsyncAPI specification here](http://94.130.75.173:8101/)
 
+#### Building
+
+- GET /buildings/{buildingDocumentId}/air-quality
+  - used in [statistics page](./assets/app-screens-raw/statistics-screen.jpg) for building-wide envirosense score
+
+#### Room
+
+- GET /rooms
+  - used in [main screen](./assets/app-screens-raw/add-room-successful-snackbar.jpg) to display all rooms
+  - used in [add device screen](./assets/app-screens-raw/add-device-settings.jpg) to see what rooms a device can be added to
+  - used in [change room of a device screen](./assets/app-screens-raw/change-room-bottom-sheet.jpg) to see available rooms
+
+- POST /rooms
+  - used in [add new room screen](./assets/app-screens-raw/add-room-settings-selected.jpg) to add a new room
+
+- GET /rooms/{roomDocumentId}
+  - used in [room overview screen](./assets/app-screens-raw/room-overview-sceen.jpg) to fetch room data
+
+- PUT /rooms/{roomDocumentId}
+  - used in [room settings screen](./assets/app-screens-raw/rename-room-bottom-sheet.jpg) to update room name
+
+- DELETE /rooms/{roomDocumentId}
+  - used in [room settings screen](./assets/app-screens-raw/remove-room-bottom-sheet.jpg) to delete a room
+
+- GET /rooms/{roomDocumentId}/air-quality
+  - used in [room overview screen](./assets/app-screens-raw/room-overview-sceen.jpg) to fetch room air data
+
+- POST /rooms/{roomDocumentId}/devices
+  - used in [device change room screen](./assets/app-screens-raw/change-room-bottom-sheet.jpg) to add a device to a different room
+
+- DELETE /rooms/{roomDocumentId}/devices
+  - used in [device change room screen](./assets/app-screens-raw/change-room-bottom-sheet.jpg) to remove device from it's current room
+
+- GET /rooms/{roomDocumentId}/limits
+  - used in [room overview screen](./assets/app-screens-raw/room-overview-sceen.jpg) to fetch temperature limits of that room
+
+#### Room Type
+
+- GET /room-types
+  - used in [add new room screen](./assets/app-screens-raw/add-room-settings-selected.jpg) to display room types and icons
+
+#### Device
+
+- GET /devices
+  - used in [main screen](./assets/app-screens-raw/add-device-successful-snackbar.jpg) to display all devices
+
+- POST /devices
+  - used in [add device screen](./assets/app-screens-raw/add-device-settings.jpg) to register a new device
+
+- GET /devices/{deviceDocumentId}
+  - used in [device overview screens](./assets/app-screens-raw/device-controls-screen.jpg) to show device data
+
+- DELETE /devices/{deviceDocumentId}
+  - used in [device settings screen](./assets/app-screens-raw/remove-device-bottom-sheet.jpg) to remove a device
+
+- GET /devices/{deviceDocumentId}/config
+  - used in [device controls screen](./assets/app-screens-raw/device-controls-screen.jpg) to fetch current device control settings
+
+- PATCH /devices/{deviceDocumentId}/config/{configType}
+  - used in [device controls screen](./assets/app-screens-raw/device-controls-screen.jpg) to update device control settings
+
+- PATCH /devices/{deviceDocumentId}/limits/{limitType}
+  - used in [room overview screen](./assets/app-screens-raw/room-overview-screen-changed-temp-limit-snackbar.jpg) to change temperature limits of a device, per device in room
+
+### Device Data
+
+- GET /device-data/{deviceDataDocumentId}
+  - used in [device data history screen](./assets/app-screens-raw/device-data-history-pagination.jpg)
+
 ### ![](ReadmeImages/Intents.png) Devices
 1. ESP32 WROVER uses a temperature, humidity, and gas sensor to monitor environmental conditions while controlling a servo.
 2. The end-user's phone uses the EnviroSense (Flutter) app to manage rooms and devices.
