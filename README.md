@@ -198,7 +198,7 @@ A heartbeat is continuously sent from the ESP32 to a Google Firebase database.
 
 Our VPS also sends a heartbeat to Firebase every 30 seconds with the status of the following docker containers: PostgreSQL, Strapi, Deno server and MQTT broker.
 
-This data is displayed here on Grafana [link](https://kempdewulf.grafana.net/public-dashboards/2cbb2f20cbcb41ae9a271faf46098d9a)
+This data is displayed here on [Grafana](https://kempdewulf.grafana.net/public-dashboards/2cbb2f20cbcb41ae9a271faf46098d9a)
 
 ### ![](ReadmeImages/Workmanager.png) Caching
 Deno dependencies are cached during auto-deployment.
