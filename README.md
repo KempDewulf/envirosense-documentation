@@ -1,7 +1,6 @@
 # EnviroSense CCETT documentation
 
-## Groupmembers
-### Group 14
+## Project members
 1. Kemp Dewulf
 2. Layton Berth
 
@@ -210,12 +209,12 @@ Air quality data per device is cached on the app and only new data is fetched.
 Each repository is individually documented
 
 - Flutter App:
-  - https://gitlab.ti.howest.be/ti/2024-2025/s5/ccett/projects/group-14/flutter-app
+  - https://github.com/KempDewulf/envirosense-app
 - IoT ESP32:
-  - https://gitlab.ti.howest.be/ti/2024-2025/s5/ccett/projects/group-14/iot-esp32
+  - https://github.com/KempDewulf/envirosense-esp32
 - Deno Server:
-  - https://gitlab.ti.howest.be/ti/2024-2025/s5/ccett/projects/group-14/deno-server
+  - https://github.com/KempDewulf/envirosense-deno-server
 - MQTT (RabbitMQ) Broker:
-  - https://gitlab.ti.howest.be/ti/2024-2025/s5/ccett/projects/group-14/rabbitmq-broker
+  - https://github.com/KempDewulf/envirosense-message-broker
 - Strapi CMS:
-  - https://gitlab.ti.howest.be/ti/2024-2025/s5/ccett/projects/group-14/strapi-cms
+  - https://github.com/KempDewulf/envirosense-strapi
